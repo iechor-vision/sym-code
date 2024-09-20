@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "crczoo",
+    "symcode",
+    "webapp"
+]

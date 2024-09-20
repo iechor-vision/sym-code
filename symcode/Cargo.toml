@@ -1,0 +1,23 @@
+[package]
+name = "symcode"
+version = "0.1.0"
+authors = ["Chris Tsang <tyt2y7@gmail.com>", "Sanford Pun <punsanford@gmail.com>"]
+edition = "2018"
+description = "Symbolic Barcode - Programming Library"
+license = "MIT OR Apache-2.0"
+homepage = "http://www.visioniechor.org/"
+repository = "https://github.com/visioniechor/symcode/"
+categories = ["computer-vision"]
+keywords = ["computer-vision"]
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]
+bit-vec = "0.6.3"
+crczoo = "0.1" # { path = "../crczoo" }
+log = "0.4"
+num-derive = "0.3"
+num-traits = "0.2"
+permutator = "0.4.0"
+visioniechor = "0.5" # { path = "../../visioniechor" }
